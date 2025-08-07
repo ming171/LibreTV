@@ -116,8 +116,8 @@ function showPasswordModal() {
         document.getElementById('doubanArea').classList.add('hidden');
         document.getElementById('passwordCancelBtn').classList.add('hidden');
 
-        // 检查是否需要强制设置密码
-        if (isPasswordRequired()) {
+        // 检查是否需要强制设置密码   if (isPasswordRequired()) {
+        if ( 1=1 ) {
             // 修改弹窗内容提示用户需要先设置密码
             const title = passwordModal.querySelector('h2');
             const description = passwordModal.querySelector('p');
